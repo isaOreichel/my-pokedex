@@ -1,16 +1,71 @@
-# React + Vite
+# PokeCheck --- Minha Coleção Pokémon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto pessoal desenvolvido para organizar e visualizar cartas do
+Pokémon TCG, utilizando React e consumo de API.
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o Projeto
 
-## React Compiler
+O PokeCheck nasceu da minha vontade de praticar desenvolvimento
+front-end enquanto criava algo com um tema que eu gosto.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A ideia é permitir que eu:
 
-## Expanding the ESLint configuration
+-   Pesquise cartas Pokémon
+-   Visualize detalhes das cartas
+-   Monte minha própria coleção
+-   Salve minhas cartas favoritas no navegador
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esse projeto representa minha evolução nos estudos de React e
+organização de aplicações modernas.
+
+------------------------------------------------------------------------
+
+## Tecnologias Utilizadas
+
+-   React
+-   Vite
+-   CSS
+-   Pokémon TCG API
+-   LocalStorage
+
+------------------------------------------------------------------------
+
+## Estrutura do Projeto
+
+my-pokedex/ │ ├── public/ ├── src/ │ ├── components/ │ ├── pages/ │ ├──
+services/ │ ├── App.jsx │ └── main.jsx │ ├── index.html ├── package.json
+└── README.md
+
+------------------------------------------------------------------------
+
+## Como Executar o Projeto
+
+1.  Clone o repositório: git clone `<url-do-repositorio>`{=html}
+
+2.  Acesse a pasta do projeto: cd my-pokedex
+
+3.  Instale as dependências: npm install
+
+4.  Execute o servidor: npm run dev
+
+5.  Acesse no navegador: http://localhost:5173
+
+------------------------------------------------------------------------
+
+## Objetivo Pessoal
+
+Este projeto faz parte do meu processo de aprendizado em desenvolvimento
+web moderno.\
+Estou estudando React, consumo de API, organização de código e boas
+práticas.
+
+A ideia é continuar evoluindo o projeto com novas funcionalidades, como
+filtros por tipo, região, coleção e melhorias visuais.
+
+------------------------------------------------------------------------
+
+## Autor
+
+Projeto pessoal desenvolvido por Isa Reichel.
